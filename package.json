@@ -1,0 +1,28 @@
+{
+  "name": "n-snap",
+  "version": "0.0.1",
+  "description": "N-SNAP UP WEB",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yppdr/N-SNAP.git"
+  },
+  "author": "Yannis Piot Pilot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yppdr/N-SNAP/issues"
+  },
+  "homepage": "https://github.com/yppdr/N-SNAP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
